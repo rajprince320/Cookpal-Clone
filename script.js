@@ -1,5 +1,5 @@
 let icon = document.getElementById("menu-icon");
-let box = document.getElementById("box");
+let box = document.getElementById("sidebar");
 
 icon.onclick = function () {
   icon.classList.toggle("active");

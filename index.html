@@ -16,32 +16,21 @@
   </head>
   <body>
     <!-- Side Bar -->
-    <div class="container">
-      <div class="box" id="box">
-        <nav class="side-nav">
-          <div class="sidebar-logo">
-            <img class="side-logo" src="./Resources/Cookpal 1.png" alt="logo" />
-            <div>
-              <i class="fas fa-circle-user"></i>
-            </div>
-          </div>
-          <ul>
-            <li><a style="color: green" href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-        </nav>
+    <div id="sidebar" class="sidebar">
+      <div class="banner">
+        <img src="./Resources/Cookpal 1.png" alt="logo" />
+        <i class="fas fa-circle-user"></i>
       </div>
+      <ul>
+        <li><a style="color: green" href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
     </div>
-    <!-- NavBar -->
-    <nav class="main-nav">
-      <div class="main-logo">
-        <div class="menu-icon" id="menu-icon">
-          <i class="fas fa-bars"></i>
-        </div>
-        <div>
-          <img src="./Resources/Cookpal 1.png" alt="" />
-        </div>
+    <nav class="navbar">
+      <div class="icon">
+        <i id="menu-icon" class="fas fa-bars"></i>
+        <img src="./Resources/Cookpal 1.png" alt="" />
       </div>
       <div class="menu">
         <ul>
@@ -49,22 +38,12 @@
           <li><a href="#">Explore</a></li>
           <li><a href="#">Help</a></li>
         </ul>
-        <div>
+        <div class="profile">
           <i class="fas fa-circle-user"></i>
         </div>
       </div>
     </nav>
-    <!-- Header -->
-    <header>
-      <img src="./Resources/Rectangle 20.png" alt="" />
-      <h4>Trending Now</h4>
-      <h3>Mike's famous salad with cheese</h3>
-      <h5>By John Mike</h5>
-    </header>
-    <section class="search-container">
-      <h2>Search For Recipes</h2>
-      <input type="text" id="searchInput" placeholder="Search For Recipes..." />
-    </section>
+
     <script src="./script.js"></script>
   </body>
 </html>
